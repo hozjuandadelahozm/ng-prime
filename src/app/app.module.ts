@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { ButtonModule } from 'primeng/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputTextModule } from 'primeng/inputtext';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './components/header/header.component';
 import { MenubarModule } from 'primeng/menubar';
-import { TableComponent } from './table/table.component';
+import { TableComponent } from './components/table/table.component';
 
 @NgModule({
   declarations: [
