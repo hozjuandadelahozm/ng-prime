@@ -1,0 +1,29 @@
+<!-- <div class="grid" *ngFor="let character of listCharacters">
+    <div class="card">
+        <p-card header={{character.name}} subheader={{character.species}} [style]="{ width: '360px' }">
+            <ng-template pTemplate="header">
+                <img alt="Card" [src]="character.image" />
+            </ng-template>
+            <p>
+                {{character.location.name}}
+            </p>
+        </p-card>
+    </div>
+</div> -->
+
+<div fxLayout="row">
+    <div fxFlex="60" fxLayoutAlign="center center">
+        <div fxLayoutGap="30">
+            <img src="https://nfnatcane.es/blog/wp-content/uploads/2022/03/American-Pitbull-Terrier.jpg" alt="" width="400px">
+            <img src="https://nfnatcane.es/blog/wp-content/uploads/2022/03/American-Pitbull-Terrier.jpg" alt="" width="400px">
+        </div>
+    </div>
+    <div fxFlex="40">
+        <div fxLayoutAlign="center center">
+            <img src="https://nfnatcane.es/blog/wp-content/uploads/2022/03/American-Pitbull-Terrier.jpg" alt="" width="400px">
+        </div>
+        <div fxLayoutAlign="center center">
+            <img src="https://nfnatcane.es/blog/wp-content/uploads/2022/03/American-Pitbull-Terrier.jpg" alt="" width="400px">
+        </div>
+    </div>
+</div>
